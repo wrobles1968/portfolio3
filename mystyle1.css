@@ -1,0 +1,47 @@
+/* css-style.css */
+
+/* This part directs the layout and the responsiveness of the site */
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+  .menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+  }
+  .main {
+    float:left;
+    width:60%;
+    padding: 0 20px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #AAAAAA;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+  }
+  .right {
+    background-color:#e5e5e5;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+  }
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    }
+/* This part ends the layout and the responsiveness of the site */
+  }
+  #header1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
